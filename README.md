@@ -27,17 +27,12 @@ This repository provides a custom implementation for ReFex and RolX as described
 Another Python implementation is available [[here]](https://github.com/dkaslovsky/GraphRole).
 
 ### Requirements
-
-The codebase is implemented in Python 2.7.
-package versions used for development are just below.
 ```
-networkx          1.11
-tqdm              4.19.5
-numpy             1.13.3
-pandas            0.20.3
-tensorflow-gpu    1.3.0
-jsonschema        2.6.0
-texttable         1.2.1
+docker build . -t rolx
+```
+
+```
+docker run -v `pwd`:/app -it rolx /bin/bash
 ```
 
 ### Datasets
